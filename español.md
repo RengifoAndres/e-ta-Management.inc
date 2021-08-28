@@ -24,11 +24,16 @@ Hola ! Bienvenido a e-TAs, tu ayuda en línea para [ECON 4676](https://github.co
 
 ## Forking
 
-A través del Forking es como se puede contribuir a las lecturas, e-TAs, etc, y obtener esos oreciados puntos de participación. 
+Por lo general, las bifurcaciones o "fork" se utilizan para proponer cambios en el proyecto de otra persona o para utilizar el proyecto de otra persona como punto de partida para su propia idea. Se puede bifurcar un repositorio para crear una copia del repositorio y realizar cambios sin afectar el repositorio original. Cuando hacemos un fork a un repositorio cualquiera se hace una copia exacta del repositorio original en tu cuenta de GitHub, el cual podemos usar y gestionar como cualquier otro repositorio. Los cambios realizados en la "copia" no se verán reflejados en el repositorio del dueño automáticamente, así como los cambios que se hagan en adelante en el repositorio original se verán relfejados automáticamente en tu "Fork".
 
-* De hecho, si tu haces fork en un repo, en realidad estás creando una copia de él.  
+A traves del Forking es como se puede contribuir a las lecturas, e-TAs, etc, y obtener esos preciados puntos de participación. 
+
+*  De hecho, si tu haces fork en un repo, en realidad estás creando una copia de él.  
 *  Hacer Forking en un repo en Github es [muy simple.] (https://docs.github.com/en/get-started/quickstart/fork-a-repo).  Solo has click en el boton “Fork”  en la esquina superior derecha del repo de interés. 
-* Una vez haces Fork en un repo,eres libre de hacer lo que quieras con él.  (Es tuyo.) Sin embargo, el proceso de Forking —en combinación con el de pull requests — es realmente como el software en el mundo es desarrollado. Por ejemplo:
+*  Una vez haces Fork en un repo,eres libre de hacer lo que quieras con él.  (Es tuyo.) Sin embargo, el proceso de Forking —en combinación con el de pull requests — es realmente como el software en el mundo es desarrollado. Por ejemplo,puede utilizar bifurcaciones para proponer cambios relacionados con la corrección de un error. En lugar de registrar un problema por un error que ha encontrado, puedes:
+1- ""Fork"" el repositorio.
+2- Haz la solución.
+2- Envía una "Pull request" al propietario del proyecto.
 
 
 
