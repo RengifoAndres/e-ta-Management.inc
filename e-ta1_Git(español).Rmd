@@ -16,3 +16,4 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, cache = TRUE, dpi=300)
 
+Hola, bienvenido a las e-TAs, tu ayuda virtual para el curso ECON 4676.Entonces, quieres aprender a usar GitHub. En este e-TA aprenderás los detalles y las complejidades de trabajar con Github y, además, las estrategias para mantener tu proceso de control de versión de archivo bajo tu control. En esta ocación, nos enfocaremos en las operaciones básicas de  `Git` y `Github`. 
