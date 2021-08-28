@@ -41,7 +41,7 @@ Step 5: El menú de  gitignore  te permite elegir cualquier tipo de archivo que 
 
 ## Repositorios
 
-Felicitaciones! Acabas de crear tu rpopio repositorio! Una vez que tienes tu repositorio en GitHub, así es como lo vinculas con tu computador. Esta sección se basa mucho en código, con los comandos específicos que necesitarás usar para que el control de versiones funcione. 
+Felicitaciones! Acabas de crear tu propio repositorio! Una vez que tienes tu repositorio en GitHub, así es como lo vinculas con tu computador. Esta sección se basa mucho en código, con los comandos específicos que necesitarás usar para que el control de versiones funcione. 
 
 ## Forking
 
