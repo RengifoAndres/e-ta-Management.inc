@@ -20,7 +20,28 @@ Hola ! Bienvenido a e-TAs, tu ayuda en línea para [ECON 4676](https://github.co
 * GitHub es una plataforma de alojamiento en línea que proporciona una variedad de servicios construidos sobre el sistema Git. (Las plataformas similares incluyen Bitbucket y GitLab).
 - Así como no necesitamos Rstudio para correr código en R, tampoco necesitamos Github para usar Git… pero esto haría nuestra vida mucho más fácil
 
+## Repositorios
 
+Cuando comienzas un nuevo proyecto de programación, tal vez quieras crear un nuevo repositorio. Este repositorio te servirá para mantener todos los archivos importantes de tu proyecto. 
+### Crea un Repositorio
+
+Puedes crear un nuevo repositorio haciendo click en el boton verde que dice “new repository” en tu página de Github.
+
+Paso 1: Nombra tu repositorio. Dale a tu repositorio un nombre preciso y conciso. Tu quieres que tu proyecto sea fácil de reconocer! Además, puedes añadir una descripción adicional que resuma el propósito de tu proyecto. 
+
+
+Paso 2: Haz tu repositorio público o privadio. La mayoría de los repositorios deberían ser públicos a menos de que tengas razones para que sean privados. Los repositorios públicos pueden ser vistos por cualquier persona, pero puedes elegir quién puede sugerir cambios.  Como este puede ser visto por otros, es posible colaborar con estos si necesitas ayuda. Con un repositorio privado, tu eres el único que puede verlo y, así mismo, modificarlo, sin embargo, puedes añadir manualmente otros participantes a este. Los repositorios privados están solo disponibles para cuentas con subscripción. 
+
+Paso 3: añade un README. Finalmente selecciona iniciar con un  “README”. No deberías modificarlo solo en caso que estés creando un repositorio a partir de otro ya existente. 
+
+
+Step 4: Licencia. El menú de licencia te permite elegir una licencia si estás compartiendo un software de código abierto.
+
+Step 5: El menú de  gitignore  te permite elegir cualquier tipo de archivo que no será modificado. 
+
+## Repositorios
+
+Felicitaciones! Acabas de crear tu propio repositorio! Una vez que tienes tu repositorio en GitHub, así es como lo vinculas con tu computador. Esta sección se basa mucho en código, con los comandos específicos que necesitarás usar para que el control de versiones funcione. 
 
 ## Forking
 
@@ -30,12 +51,14 @@ A traves del Forking es como se puede contribuir a las lecturas, e-TAs, etc, y o
 
 *  De hecho, si tu haces fork en un repo, en realidad estás creando una copia de él.  
 *  Hacer Forking en un repo en Github es [muy simple.] (https://docs.github.com/en/get-started/quickstart/fork-a-repo).  Solo has click en el boton “Fork”  en la esquina superior derecha del repo de interés. 
-*  Una vez haces Fork en un repo,eres libre de hacer lo que quieras con él.  (Es tuyo.) Sin embargo, el proceso de Forking —en combinación con el de pull requests — es realmente como el software en el mundo es desarrollado. Por ejemplo,puede utilizar bifurcaciones para proponer cambios relacionados con la corrección de un error. En lugar de registrar un problema por un error que ha encontrado, puedes:
-1. "Fork" el repositorio.
-2. Haz la solución.
-3. Envía una "Pull request" al propietario del proyecto.
 
-
+* Una vez haces Fork en un repo,eres libre de hacer lo que quieras con él.  (Es tuyo.) Sin embargo, el proceso de Forking —en combinación con el de pull requests — es realmente como el software en el mundo es desarrollado. Por ejemplo:
+* Un usuario externo, B, hace un fork al repo de A. Este añade una nueva característica (o arregla un error que identificó) y luego envía un pull requests. 
+*  A es notificado de esto y, entonces, puede decidir si juntar la contribución de B con el proyecto original. 
+ 
+ ## Branches
+ 
+ Sección incompleta: el mejor pull requests para esta sección ganará un bono =).
 
 ## Si las cosas salen mal
 **Q: ¿Qué pasa cuando algo sale mal?**
