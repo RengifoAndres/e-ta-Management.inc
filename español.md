@@ -2,7 +2,7 @@
 
 ### Ignacio Sarmiento-Barbieri & Jacob Muñoz Castro
 
-Hola ! Bienvenido a e-TAs, tu ayuda en línea para [ECON 4676](https://github.com/ECON-4676-UNIANDES). Así que quieres aprender como usar GitHub. En este e-TA, aprenderás las complejidades y especificaciones para mantener tu archivo versión control bajo tu control. El problema se focaliza en las operaciones básicas de Git y Github. El material central es extraído de tutoriales y del grupo [BDEEP](https://www.uiuc-bdeep.org/about) en [NCSA](http://www.ncsa.illinois.edu/site) y Prof. Grant McDermott 1
+Hola ! Bienvenido a e-TAs, tu ayuda en línea para [ECON 4676](https://github.com/ECON-4676-UNIANDES). ¿Así que quieres aprender como usar GitHub? En este e-TA, aprenderás las complejidades y especificaciones para mantener el control de versión de tu archivo  bajo tu control.En esta ocación, nos enfocaremos en las operaciones básicas de  `Git` y `Github`. El material central es extraído de tutoriales y del grupo [BDEEP](https://www.uiuc-bdeep.org/about) en [NCSA](http://www.ncsa.illinois.edu/site) y Prof. Grant McDermott 1
 
 ## Motivación
 
@@ -13,7 +13,7 @@ Hola ! Bienvenido a e-TAs, tu ayuda en línea para [ECON 4676](https://github.co
 ## Git(Hub) arregla este problema!
 ### Git 
 * Git es un sistema de control de versiones distibuido. (Espera, ¿qué?)
-* Bien, intente esto: Imagínese si Dropbox y la función "Seguimiento de cambios" en MS Word tuvieran un bebé. Git sería ese bebé.
+* Bien, intenta esto: Imagina que Dropbox y la función "Seguimiento de cambios" en MS Word tuvieran un bebé. Git sería ese bebé.
 - De hecho, es incluso mejor que eso porque Git está optimizado para las cosas en las que los economistas y científicos de datos dedican mucho tiempo a trabajar (Ej., Código).
 - Hay una curva de aprendizaje, pero te prometo que valdrá la pena.
 ### GitHub
