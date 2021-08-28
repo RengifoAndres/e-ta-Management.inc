@@ -31,9 +31,9 @@ A traves del Forking es como se puede contribuir a las lecturas, e-TAs, etc, y o
 *  De hecho, si tu haces fork en un repo, en realidad estás creando una copia de él.  
 *  Hacer Forking en un repo en Github es [muy simple.] (https://docs.github.com/en/get-started/quickstart/fork-a-repo).  Solo has click en el boton “Fork”  en la esquina superior derecha del repo de interés. 
 *  Una vez haces Fork en un repo,eres libre de hacer lo que quieras con él.  (Es tuyo.) Sin embargo, el proceso de Forking —en combinación con el de pull requests — es realmente como el software en el mundo es desarrollado. Por ejemplo,puede utilizar bifurcaciones para proponer cambios relacionados con la corrección de un error. En lugar de registrar un problema por un error que ha encontrado, puedes:
-1- ""Fork"" el repositorio.
-2- Haz la solución.
-2- Envía una "Pull request" al propietario del proyecto.
+1. "Fork" el repositorio.
+2. Haz la solución.
+3. Envía una "Pull request" al propietario del proyecto.
 
 
 
