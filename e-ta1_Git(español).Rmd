@@ -1,0 +1,18 @@
+title: "e-TA 1: Version control with Git(Hub)"
+author: 
+  name: "Ignacio Sarmiento-Barbieri & Jacob Muñoz Castro"
+  affiliation: "Universidad de los Andes | [ECON 4676](https://github.com/ECON-4676-UNIANDES)" 
+output: 
+  html_document:
+    theme: simplex
+    highlight: tango
+    # code_folding: show
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE, dpi=300)
+
