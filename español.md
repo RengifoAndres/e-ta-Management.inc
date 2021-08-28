@@ -1,4 +1,8 @@
-## e-TA 1: Version control with Git(Hub)
+## Git(Hub) arregla est problema!
+
+### Ignacio Sarmiento-Barbieri & Jacob Muñoz Castro
+
+Hola ! Bienvenido a e-TAs, tu ayuda en línea para [ECON 4676](https://github.com/ECON-4676-UNIANDES). Así que quieres aprender como usar GitHub. En este e-TA, aprenderás las complejidades y especificaciones para mantener tu archivo versión control bajo tu control.## e-TA 1: Version control with Git(Hub)
 ### Ignacio Sarmiento-Barbieri & Jacob Muñoz Castro
 
 Hola ! Bienvenido a e-TAs, tu ayuda en línea para [ECON 4676](https://github.com/ECON-4676-UNIANDES). ¿Así que quieres aprender como usar GitHub? En este e-TA, aprenderás las complejidades y especificaciones para mantener el control de versión de tu archivo  bajo tu control.En esta ocación, nos enfocaremos en las operaciones básicas de  `Git` y `Github`. El material central es extraído de tutoriales y del grupo [BDEEP](https://www.uiuc-bdeep.org/about) en [NCSA](http://www.ncsa.illinois.edu/site) y Prof. Grant McDermott 1
@@ -43,12 +47,13 @@ Step 5: El menú de  gitignore  te permite elegir cualquier tipo de archivo que 
 
 Felicitaciones! Acabas de crear tu propio repositorio! Una vez que tienes tu repositorio en GitHub, así es como lo vinculas con tu computador. Esta sección se basa mucho en código, con los comandos específicos que necesitarás usar para que el control de versiones funcione. 
 
+
 ## Forking
 
 A través del Forking es como se puede contribuir a las lecturas, e-TAs, etc, y obtener esos oreciados puntos de participación. 
 
 * De hecho, si tu haces fork en un repo, en realidad estás creando una copia de él.  
-*  Hacer Forking en un repo en Github es [muy simple.] (https://docs.github.com/en/get-started/quickstart/fork-a-repo).  Solo has click en el boton “Fork”  en la esquina superior derecha del repo de interés. 
+*  Hacer Forking en un repo en Github es [muy simple.](https://docs.github.com/en/get-started/quickstart/fork-a-repo).  Solo has click en el boton “Fork”  en la esquina superior derecha del repo de interés. 
 * Una vez haces Fork en un repo,eres libre de hacer lo que quieras con él.  (Es tuyo.) Sin embargo, el proceso de Forking —en combinación con el de pull requests — es realmente como el software en el mundo es desarrollado. Por ejemplo:
 * Un usuario externo, B, hace un fork al repo de A. Este añade una nueva característica (o arregla un error que identificó) y luego envía un pull requests. 
 *  A es notificado de esto y, entonces, puede decidir si juntar la contribución de B con el proyecto original. 
@@ -57,6 +62,72 @@ A través del Forking es como se puede contribuir a las lecturas, e-TAs, etc, y 
  
  Sección incompleta: el mejor pull requests para esta sección ganará un bono =).
  
+1. Primero encuentre el url de su repo.
+
+2. Abra su herramienta de línea de comando y escriba `git clone` con la url que copio. Por ejemplo:
+
+```bash
+$ git clone https://github.com/ignaciomsarmiento/test_repo.git
+```
+
+Ahora el repositorio está en su computadora local. Puede ver, por ejemplo, su historial de confirmaciones (presione la barra espaciadora para desplazarse hacia abajo o q para salir).
+
+
+```bash
+$ git log
+```
+¿O que ha cambiado?
+
+```bash
+$ git status
+```
+
+Para agregar archivos
+
+Fase ("agregar") un archivo o grupo de archivos.
+
+```bash
+$ git add NAME-OF-FILE-OR-FOLDER
+```
+Puede utilizar caracteres comodín para organizar un grupo de archivos (por ejemplo, que compartan un prefijo común). También hay un montón de opciones de banderas útiles:
+
+* Preparar todos los archivos.
+
+```bash
+$ git add -A
+```
+
+Escenario de archivos actualizados solamente (modificados o borrados, pero no nuevos).
+
+```bash
+$ git add -u
+```
+
+Poner en escena sólo los archivos nuevos (no actualizados).
+
+```bash
+$ git add .
+```
+
+confirmar los cambios
+
+```bash
+$ git commit -m "Helpful message"
+```
+
+Extraer del repositorio ascendente (es decir, GitHub).
+
+```bash
+$ git pull
+```
+
+Envía cualquier cambio local que hayas confirmado en el repositorio ascendente (es decir, GitHub).
+
+```bash
+$ git push origin master
+```
+`origin` es un nombre abreviado para el repositorio remoto desde el que se clonó originalmente un proyecto. y dominar la rama a la que estamos empujando.
+
 
 ## Si las cosas salen mal
 **Q: ¿Qué pasa cuando algo sale mal?**
@@ -65,7 +136,7 @@ A través del Forking es como se puede contribuir a las lecturas, e-TAs, etc, y 
 
 **Q: ¿Qué pasa cuando algo sale terriblemente mal?**
 
-**A: Lo elimino todo y empiezo de nuevo**, - [ http://happygitwithr.com/burn.html ] (https://happygitwithr.com/burn.html) - esta es una de las grandes ventajas de la distribución natural de Git. Si algo sale muy mal, siempre habra una útil versión intacta en alguna parte.P
+**A: Lo elimino todo y empiezo de nuevo**, - [ http://happygitwithr.com/burn.html ](https://happygitwithr.com/burn.html) - esta es una de las grandes ventajas de la distribución natural de Git. Si algo sale muy mal, siempre habra una útil versión intacta en alguna parte.P
 
 ![Esta es una imagen de ejemplo](data:image/png;base64,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)
 
