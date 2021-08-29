@@ -41,6 +41,75 @@ Step 5: El menú de  gitignore  te permite elegir cualquier tipo de archivo que 
 ## Repositorios
 
 Felicitaciones! Acabas de crear tu propio repositorio! Una vez que tienes tu repositorio en GitHub, así es como lo vinculas con tu computador. Esta sección se basa mucho en código, con los comandos específicos que necesitarás usar para que el control de versiones funcione. 
+ Sección incompleta: el mejor pull requests para esta sección ganará un bono =).
+ 
+1. Primero encuentre el url de su repo.
+
+2. Abra su herramienta de línea de comando y escriba `git clone` con la url que copio. Por ejemplo:
+
+```bash
+$ git clone https://github.com/ignaciomsarmiento/test_repo.git
+```
+
+Ahora el repositorio está en su computadora local. Puede ver, por ejemplo, su historial de confirmaciones (presione la barra espaciadora para desplazarse hacia abajo o q para salir).
+
+
+```bash
+$ git log
+```
+¿O que ha cambiado?
+
+```bash
+$ git status
+```
+
+Para agregar archivos
+
+Fase ("agregar") un archivo o grupo de archivos.
+
+```bash
+$ git add NAME-OF-FILE-OR-FOLDER
+```
+Puede utilizar caracteres comodín para organizar un grupo de archivos (por ejemplo, que compartan un prefijo común). También hay un montón de opciones de banderas útiles:
+
+* Preparar todos los archivos.
+
+```bash
+$ git add -A
+```
+
+Escenario de archivos actualizados solamente (modificados o borrados, pero no nuevos).
+
+```bash
+$ git add -u
+```
+
+Poner en escena sólo los archivos nuevos (no actualizados).
+
+```bash
+$ git add .
+```
+
+confirmar los cambios
+
+```bash
+$ git commit -m "Helpful message"
+```
+
+Extraer del repositorio ascendente (es decir, GitHub).
+
+```bash
+$ git pull
+```
+
+Envía cualquier cambio local que hayas confirmado en el repositorio ascendente (es decir, GitHub).
+
+```bash
+$ git push origin master
+```
+`origin` es un nombre abreviado para el repositorio remoto desde el que se clonó originalmente un proyecto. y dominar la rama a la que estamos empujando.
+
+
 
 ## Forking
 
