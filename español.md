@@ -34,7 +34,6 @@ Paso 2: Haz tu repositorio público o privadio. La mayoría de los repositorios 
 
 Paso 3: añade un README. Finalmente selecciona iniciar con un  “README”. No deberías modificarlo solo en caso que estés creando un repositorio a partir de otro ya existente. 
 
-
 Step 4: Licencia. El menú de licencia te permite elegir una licencia si estás compartiendo un software de código abierto.
 
 Step 5: El menú de  gitignore  te permite elegir cualquier tipo de archivo que no será modificado. 
