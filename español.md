@@ -45,10 +45,13 @@ Felicitaciones! Acabas de crear tu propio repositorio! Una vez que tienes tu rep
 
 ## Forking
 
-A través del Forking es como se puede contribuir a las lecturas, e-TAs, etc, y obtener esos oreciados puntos de participación. 
+Por lo general, las bifurcaciones o "fork" se utilizan para proponer cambios en el proyecto de otra persona o para utilizar el proyecto de otra persona como punto de partida para su propia idea. Se puede bifurcar un repositorio para crear una copia del repositorio y realizar cambios sin afectar el repositorio original. Cuando hacemos un fork a un repositorio cualquiera se hace una copia exacta del repositorio original en tu cuenta de GitHub, el cual podemos usar y gestionar como cualquier otro repositorio. Los cambios realizados en la "copia" no se verán reflejados en el repositorio del dueño automáticamente, así como los cambios que se hagan en adelante en el repositorio original se verán relfejados automáticamente en tu "Fork".
 
-* De hecho, si tu haces fork en un repo, en realidad estás creando una copia de él.  
+A traves del Forking es como se puede contribuir a las lecturas, e-TAs, etc, y obtener esos preciados puntos de participación. 
+
+*  De hecho, si tu haces fork en un repo, en realidad estás creando una copia de él.  
 *  Hacer Forking en un repo en Github es [muy simple.] (https://docs.github.com/en/get-started/quickstart/fork-a-repo).  Solo has click en el boton “Fork”  en la esquina superior derecha del repo de interés. 
+
 * Una vez haces Fork en un repo,eres libre de hacer lo que quieras con él.  (Es tuyo.) Sin embargo, el proceso de Forking —en combinación con el de pull requests — es realmente como el software en el mundo es desarrollado. Por ejemplo:
 * Un usuario externo, B, hace un fork al repo de A. Este añade una nueva característica (o arregla un error que identificó) y luego envía un pull requests. 
 *  A es notificado de esto y, entonces, puede decidir si juntar la contribución de B con el proyecto original. 
@@ -56,7 +59,6 @@ A través del Forking es como se puede contribuir a las lecturas, e-TAs, etc, y 
  ## Branches
  
  Sección incompleta: el mejor pull requests para esta sección ganará un bono =).
- 
 
 ## Si las cosas salen mal
 **Q: ¿Qué pasa cuando algo sale mal?**
